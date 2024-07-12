@@ -7,12 +7,39 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+.nav-container{
+    max-width: 1400px;
+    height: 33px;
+    margin: 0% auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container h3{
+    font-weight: 1000px;
+    font-size: 28px;
+    max-width: 244px;
+    height: 57px;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.nav-container button{
+    color: #0d0f21f5;
+    font-weight: 400px;
+    font-size: 16px;
+    margin: 0% auto;
+    padding: 15px 20px;
+    margin-top: 30px;
+    margin-left: 65%;
+}
 /*banner section style begins here*/
 .banner-container{
     max-width: 1440px;
     margin: 0px auto;
     min-height: 600px; 
-    margin-top: 119px;
+    margin-top: 60px;
     background-image: url('../assignment-file/assets/Hero-bg.png');
     background-position: center;
     background-repeat: no repeat;
